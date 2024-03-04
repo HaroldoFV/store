@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{17424F91-6622-4054-A088-D8378E742AFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6024EEA8-A45A-47B9-B808-3EDD1C336C8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartMicroservice", "CartMicroservice\CartMicroservice.csproj", "{54AB49B0-200F-4832-A464-57B5653F6169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "global", "global", "{FBFFCC17-C0AD-439F-A05D-0256CD70A8FD}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54AB49B0-200F-4832-A464-57B5653F6169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54AB49B0-200F-4832-A464-57B5653F6169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54AB49B0-200F-4832-A464-57B5653F6169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54AB49B0-200F-4832-A464-57B5653F6169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54AB49B0-200F-4832-A464-57B5653F6169} = {17424F91-6622-4054-A088-D8378E742AFA}
+	EndGlobalSection
+EndGlobal
